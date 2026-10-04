@@ -1,0 +1,12 @@
+{
+  "name": "movetogether-down-syndrome-activity-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An accessible global physical-activity participation platform for people with Down syndrome.",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check activities.js && node --check server.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
