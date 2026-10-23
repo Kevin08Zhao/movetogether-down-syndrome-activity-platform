@@ -1,61 +1,60 @@
 # MoveTogether
 
-> Down Syndrome Physical Activity Participation Platform  
-> 唐氏综合征人群体育活动参与平台
+> Down Syndrome Physical Activity Participation Platform
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-174e46)](https://kevin08zhao.github.io/movetogether-down-syndrome-activity-platform/)
-[![Accessibility](https://img.shields.io/badge/Accessibility-Cognitive--friendly-df725b)](#accessibility--无障碍设计)
-[![Data](https://img.shields.io/badge/Activity%20data-Official%20sources-2d7460)](#real-world-activity-data--真实活动数据)
+[![Accessibility](https://img.shields.io/badge/Accessibility-Cognitive--friendly-df725b)](#accessibility)
+[![Data](https://img.shields.io/badge/Activity%20data-Official%20sources-2d7460)](#real-world-activity-data)
 
-MoveTogether 是一个公益体验优先、研究参与可选的响应式 Web MVP。它帮助唐氏综合征人士及其支持者：
+MoveTogether is a responsive web MVP that puts community participation first and makes research participation optional. It helps people with Down syndrome and their supporters:
 
-- 查找全球真实的包容性体育活动项目；
-- 了解年龄、支持方式、参与形式、费用和无障碍注意事项；
-- 用四个简单问题记录个人参与体验；
-- 自主决定是否匿名贡献研究数据；
-- 查看示例性的匿名聚合研究看板。
+- Find real inclusive physical-activity programs around the world;
+- Understand age groups, support, participation formats, costs, and accessibility considerations;
+- Record personal participation experiences through four simple questions;
+- Choose independently whether to contribute anonymous research data;
+- Explore a demonstration dashboard of anonymous, aggregated research data.
 
 MoveTogether is a cognitive-accessible web MVP for discovering verified inclusive physical-activity programs, recording personal participation experiences, and making a separate, optional choice about anonymous research contribution.
 
-## 在线体验 / Live demo
+## Live demo
 
 **https://kevin08zhao.github.io/movetogether-down-syndrome-activity-platform/**
 
-> GitHub Pages 首次启用后通常需要短暂时间完成发布。如果链接暂时返回 404，请稍后刷新。
+> The first GitHub Pages deployment may take a short time. If the link temporarily returns a 404, refresh it later.
 
-## Core features / 核心功能
+## Core features
 
-- **首页**：清晰说明平台价值、数据边界和主要入口。
-- **Discover Activities**：按活动类型、年龄、支持方式、地区和参与形式筛选。
-- **Activity Detail**：显示真实主办方、官方来源、参与条件及需要提前确认的无障碍信息。
-- **Activity Passport**：记录 Fun、Difficulty、Need Help、Would Do Again。
-- **Participation History**：在当前浏览器保存个人参与历史。
-- **Research choice**：服务记录默认私密；匿名研究分享必须单独选择，并可撤回。
-- **Research Dashboard**：展示明确标注为演示数据的匿名聚合指标。
-- **Accessibility / Privacy / Research Ethics**：解释无障碍设计、隐私边界和研究伦理原则。
-- **Focus view**：隐藏非必要信息，降低阅读和认知负担。
+- **Home**: Explains the platform, data boundaries, and main ways to get started.
+- **Discover Activities**: Filter by activity type, age, support, region, and participation format.
+- **Activity Detail**: View real providers, official sources, eligibility, and accessibility details to confirm in advance.
+- **Activity Passport**: Record Fun, Difficulty, Need Help, and Would Do Again.
+- **Participation History**: Save personal participation history in the current browser.
+- **Research choice**: Service records are private by default. Anonymous research sharing requires a separate choice and can be withdrawn.
+- **Research Dashboard**: View anonymous, aggregated metrics clearly labeled as demonstration data.
+- **Accessibility / Privacy / Research Ethics**: Learn about accessibility design, privacy boundaries, and research ethics.
+- **Focus view**: Hide optional information to make reading easier and reduce cognitive load.
 
-## Real-world activity data / 真实活动数据
+## Real-world activity data
 
-`activities.js` 当前收录 13 个真实项目，覆盖全球、北美、欧洲、大洋洲、东亚、南亚、非洲、拉丁美洲和中东北非。来源包括：
+`activities.js` contains 13 real programs across nine regions: Global, North America, Europe, Oceania, East Asia, South Asia, Africa, Latin America, and the Middle East and North Africa. Sources include:
 
-- Special Olympics Young Athletes、Unified Sports、MATP 及区域项目；
-- GiGi’s Playhouse GiGiFIT；
-- Canadian Down Syndrome Society Mindsets；
-- Down’s Syndrome Association DSActive；
-- Down Syndrome Ireland Dublin；
-- Disability Sports Australia Abilities Unleashed；
-- Special Olympics Bharat；
-- Special Olympics East Asia School of Strength。
+- Special Olympics Young Athletes, Unified Sports, MATP, and regional programs;
+- GiGi’s Playhouse GiGiFIT;
+- Canadian Down Syndrome Society Mindsets;
+- Down’s Syndrome Association DSActive;
+- Down Syndrome Ireland Dublin;
+- Disability Sports Australia Abilities Unleashed;
+- Special Olympics Bharat;
+- Special Olympics East Asia School of Strength.
 
-每条记录包含官方 URL 和核查日期。平台不会虚构具体场次、余位、距离或价格；可能变化的信息会提示用户在参加前向官方机构确认。
+Each record includes an official URL and verification date. The platform does not invent specific sessions, availability, distances, or prices. Users are prompted to confirm details that may change with the official provider before attending.
 
-## Quick start / 本地运行
+## Quick start
 
 ### Requirements
 
-- Node.js 18 或更高版本
-- 不需要安装第三方依赖
+- Node.js 18 or later
+- No third-party dependencies to install
 
 ### 1. Clone
 
@@ -70,7 +69,7 @@ cd movetogether-down-syndrome-activity-platform
 npm start
 ```
 
-打开：
+Open:
 
 ```text
 http://127.0.0.1:4173
@@ -96,33 +95,33 @@ Windows PowerShell:
 $env:PORT=8080; npm start
 ```
 
-## How to use / 使用教程
+## How to use
 
-### 查找活动
+### Find an activity
 
-1. 点击 **Find an activity**。
-2. 使用 Region、Age group、Activity type、Format 或 Support 筛选。
-3. 打开活动详情。
-4. 阅读来源、适用年龄、参与方式和无障碍注意事项。
-5. 点击 **Open official provider** 前往主办方网站确认报名。
+1. Select **Find an activity**.
+2. Filter by Region, Age group, Activity type, Format, or Support.
+3. Open an activity detail page.
+4. Read the source, age range, participation format, and accessibility notes.
+5. Select **Open official provider** to confirm registration on the provider’s website.
 
-### 记录一次参与
+### Record participation
 
-1. 在活动详情点击 **I did this activity**。
-2. 回答四个图标化问题。
-3. 点击 **Save to my private history**。
-4. 记录会保存在当前浏览器的 `localStorage` 中。
+1. Select **I did this activity** on an activity detail page.
+2. Answer the four questions illustrated with icons.
+3. Select **Save to my private history**.
+4. The record is saved in the current browser’s `localStorage`.
 
-### 选择研究分享
+### Choose research sharing
 
-1. 打开 **My history**。
-2. 每条记录都会显示 `Private only` 或 `Anonymous copy shared`。
-3. 点击 **Research options** 可以选择匿名分享。
-4. 点击 **Withdraw research copy** 可以撤回；私人历史不会被删除。
+1. Open **My history**.
+2. Each record shows `Private only` or `Anonymous copy shared`.
+3. Select **Research options** to opt into anonymous sharing.
+4. Select **Withdraw research copy** to withdraw it. Your private history is preserved.
 
-> 本 MVP 不会向远程服务器发送 Passport 数据。研究看板使用演示数据，不代表真实研究结果。
+> This MVP does not send Passport data to a remote server. The research dashboard uses demonstration data and does not represent real research findings.
 
-## Information architecture / 信息架构
+## Information architecture
 
 ```text
 Home
@@ -140,7 +139,7 @@ Home
     └── Research ethics
 ```
 
-## Data structure / 数据结构
+## Data structure
 
 Activity example:
 
@@ -173,7 +172,7 @@ Participation record example:
 }
 ```
 
-## Privacy and research boundary / 隐私与研究边界
+## Privacy and research boundary
 
 | Data purpose | Default | Storage in MVP |
 | --- | --- | --- |
@@ -181,23 +180,23 @@ Participation record example:
 | Anonymous research copy | Off | Demonstration state in current browser |
 | Research dashboard | Sample data | Bundled static values |
 
-本项目不要求详细病史、遗传或临床记录、精确住址，也不把研究同意隐藏在服务条款中。
+The project does not request detailed medical histories, genetic or clinical records, or precise addresses. Research consent is never hidden in the terms of service.
 
-## Accessibility / 无障碍设计
+## Accessibility
 
-- 简短、具体的语言；
-- 一致且可预测的导航；
-- 大尺寸触控目标；
-- 键盘访问和清晰焦点；
-- 图标与文字同时出现；
-- 支持系统 Reduced Motion 设置；
-- 响应式布局；
-- Focus view；
-- 语义化标题、表单分组和实时状态提示。
+- Short, concrete language;
+- Consistent, predictable navigation;
+- Large touch targets;
+- Keyboard access and visible focus;
+- Icons paired with text;
+- Support for the system Reduced Motion setting;
+- Responsive layouts;
+- Focus view;
+- Semantic headings, grouped form fields, and live status announcements.
 
-上线前仍应与唐氏综合征人士共同设计并开展可用性测试，并进行 WCAG 2.2 AA 审核。
+Before launch, continue co-design and usability testing with people with Down syndrome, and conduct a WCAG 2.2 AA audit.
 
-## Project structure / 项目结构
+## Project structure
 
 ```text
 .
@@ -211,7 +210,7 @@ Participation record example:
 └── package.json     # Run and check commands
 ```
 
-## Deployment / 部署
+## Deployment
 
 This repository is designed for GitHub Pages:
 
